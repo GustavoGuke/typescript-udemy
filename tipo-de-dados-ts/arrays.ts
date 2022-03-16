@@ -21,6 +21,6 @@ for(let i of arrayString){
 for(let i =0; i < arrayInterface.length; i++){
     console.log(arrayInterface[i])
 }
-arrayAny.forEach(element => {
+arrayAny.forEach((element: any) => {
     console.log(element)
 });
